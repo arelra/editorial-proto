@@ -8,17 +8,16 @@ import FilterContextWrapper from "../filterContext/filterContext";
 const Page = () => {
     return  (
         <FilterContextWrapper>
-
-        <section className="Page-body">
-            <div className="Page-container">
-            <FilterBank />
-                <div className="List-container">
-                    {Data.cards.map(card => 
-                        <Card image={card.image} tag={card.tag}/>
-                    )}    
+            <section className="Page-body">
+                <div className="Page-container">
+                    <div className="List-container">
+                        <FilterBank />
+                        {Data.cards.map(card => 
+                            <Card image={card.image} tag={card.tag}/>
+                        )}    
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </FilterContextWrapper>
 
     )
