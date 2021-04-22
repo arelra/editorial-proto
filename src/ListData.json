@@ -2,50 +2,50 @@
 "cards": [
     {
         "image": "0.png",
-        "tag": ""
+        "tag": 0
     },
     {
         "image": "1.png",
-        "tag": ""
+        "tag": 0
     },
     {
         "image": "2.png",
-        "tag": "goal"
+        "tag": 1
     },
     {
         "image": "3.png",
-        "tag": ""
+        "tag": 0
     },
     {
         "image": "4.png",
-        "tag": ""
+        "tag": 0
     },
     {
         "image": "5.png",
-        "tag": "goal"
+        "tag": 1
     },
     {
         "image": "6.png",
-        "tag": "goal"
+        "tag": 1
     },
     {
         "image": "7.png",
-        "tag": "full time"
+        "tag": 3
     },
     {
         "image": "8.png",
-        "tag": "full time"
+        "tag": 3
     },
     {
         "image": "9.png",
-        "tag": "full time"
+        "tag": 3
     },
     {
         "image": "10.png",
-        "tag": "full time"
+        "tag": 3
     },
     {
         "image": "11.png",
-        "tag": ""
+        "tag": 0
     }
 ]}
