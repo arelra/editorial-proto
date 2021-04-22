@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FC } from "react";
 import './Card.css';
-type Card = {
+type Props = {
     image: String,
     tag: String
 }
-const Card = ({image, tag}: Card) => {
+const Card: FC<Props> = ({image, tag}) => {
     return  (
         <div className="Card-Body">
           <img className="Card-body"
