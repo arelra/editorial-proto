@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: GuardianTextSans, "Guardian Text Sans Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 1.0625rem; font-weight: 400;
 }
 
 .App-logo {
