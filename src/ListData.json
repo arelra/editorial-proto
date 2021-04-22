@@ -1,0 +1,51 @@
+{
+"cards": [
+    {
+        "image": "0.png",
+        "tag": ""
+    },
+    {
+        "image": "1.png",
+        "tag": ""
+    },
+    {
+        "image": "2.png",
+        "tag": "goal"
+    },
+    {
+        "image": "3.png",
+        "tag": ""
+    },
+    {
+        "image": "4.png",
+        "tag": ""
+    },
+    {
+        "image": "5.png",
+        "tag": "goal"
+    },
+    {
+        "image": "6.png",
+        "tag": "goal"
+    },
+    {
+        "image": "7.png",
+        "tag": "full time"
+    },
+    {
+        "image": "8.png",
+        "tag": "full time"
+    },
+    {
+        "image": "9.png",
+        "tag": "full time"
+    },
+    {
+        "image": "10.png",
+        "tag": "full time"
+    },
+    {
+        "image": "11.png",
+        "tag": ""
+    }
+]}
