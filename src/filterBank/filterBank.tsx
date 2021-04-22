@@ -15,8 +15,12 @@ const FilterBank: FC = () => {
 	return (
 		<div style={styles.filterBank}>
 			<FilterButton
-				text="Reset"
+				text="Full Blog"
 				onClick={() => setCurrentFilter(FilterTypes.EMPTY)}
+			/>
+			<FilterButton
+				text="Results"
+				onClick={() => setCurrentFilter(FilterTypes.FULL_TIME)}
 			/>
 			<FilterButton
 				text="Goals"
@@ -25,10 +29,6 @@ const FilterBank: FC = () => {
 			<FilterButton
 				text="Cards"
 				onClick={() => setCurrentFilter(FilterTypes.CARDS)}
-			/>
-			<FilterButton
-				text="Full Time"
-				onClick={() => setCurrentFilter(FilterTypes.FULL_TIME)}
 			/>
 		</div>
 	);
