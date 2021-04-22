@@ -1,0 +1,51 @@
+{
+"cards": [
+    {
+        "image": "0.png",
+        "tag": 0
+    },
+    {
+        "image": "1.png",
+        "tag": 0
+    },
+    {
+        "image": "2.png",
+        "tag": 1
+    },
+    {
+        "image": "3.png",
+        "tag": 0
+    },
+    {
+        "image": "4.png",
+        "tag": 0
+    },
+    {
+        "image": "5.png",
+        "tag": 1
+    },
+    {
+        "image": "6.png",
+        "tag": 1
+    },
+    {
+        "image": "7.png",
+        "tag": 3
+    },
+    {
+        "image": "8.png",
+        "tag": 3
+    },
+    {
+        "image": "9.png",
+        "tag": 3
+    },
+    {
+        "image": "10.png",
+        "tag": 3
+    },
+    {
+        "image": "11.png",
+        "tag": 0
+    }
+]}

@@ -1,0 +1,19 @@
+  .Page-body{
+    background-color: #f6f6f6;
+    height:100%;
+  }
+
+  .Page-container{
+    margin: 0 5rem;
+  }
+
+  .List-container{
+    padding: 1.25rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5rem;
+    border: 0.0625rem solid #dcdcdc;
+    border-top: 0;
+    border-bottom:0 
+  }
