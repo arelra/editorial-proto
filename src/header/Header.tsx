@@ -77,7 +77,7 @@ const Header = () => {
           </a>
           <div id="reader-revenue-links-header">
             <div className="css-1yfvmzu">
-              <div>
+              <div style={{"display": "flex", "flexDirection": "column"}}>
                 <span className="css-1bne320-Hide">
                   <div className="css-1p35o95">
                     <span>Support the Guardian</span>
@@ -86,6 +86,7 @@ const Header = () => {
                     <div>Available for everyone, funded by readers</div>
                   </div>
                 </span>
+                <div style={{"display": "flex", "flexDirection": "row"}}>
                 <span className="css-1d89sgr-Hide">
                   <a
                     href="https://support.theguardian.com/subscribe?REFPVID=knsu7s06gveb0rgdhz2p&amp;INTCMP=RemoteRrHeaderLinksTest__UK_remote&amp;acquisitionData=%7B%22source%22%3A%22GUARDIAN_WEB%22%2C%22componentId%22%3A%22RemoteRrHeaderLinksTest__UK_remote%22%2C%22componentType%22%3A%22ACQUISITIONS_HEADER%22%2C%22campaignCode%22%3A%22RemoteRrHeaderLinksTest__UK_remote%22%2C%22abTest%22%3A%7B%22name%22%3A%22RemoteRrHeaderLinksTest__UK%22%2C%22variant%22%3A%22remote%22%7D%2C%22referrerPageviewId%22%3A%22knsu7s06gveb0rgdhz2p%22%2C%22referrerUrl%22%3A%22https%3A%2F%2Fwww.theguardian.com%2Fenvironment%2F2021%2Fapr%2F22%2Fpoorer-nations-raise-concerns-over-climate-aid-ahead-of-white-house-summit%22%2C%22isRemote%22%3Atrue%7D"
@@ -94,8 +95,8 @@ const Header = () => {
                     Subscribe<div className="src-button-space"></div>
                     <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M4 15.95h19.125l-7.5 8.975.975.975 10.425-10.45v-1L16.6 4l-.975.975 7.5 8.975H4v2z"
                       ></path>
                     </svg>
@@ -117,13 +118,14 @@ const Header = () => {
                     Contribute<div className="src-button-space"></div>
                     <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M4 15.95h19.125l-7.5 8.975.975.975 10.425-10.45v-1L16.6 4l-.975.975 7.5 8.975H4v2z"
                       ></path>
                     </svg>
                   </a>
                 </span>
+                </div>
               </div>
             </div>
           </div>

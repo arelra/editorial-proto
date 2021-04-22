@@ -209,6 +209,7 @@ ul {
   font-weight: 700;
   padding-top: 3px;
   margin-bottom: 3px;
+  display: flex;
 }
 .css-z58xh3 {
   color: rgb(255, 255, 255);
@@ -218,6 +219,7 @@ ul {
   line-height: 1.5;
   font-weight: 400;
   margin: 5px 0px;
+  display: flex;
 }
 .css-1suefd1-button-fontSpacingVerticalOffset-defaultSize-iconDefault-iconRight-iconNudgeAnimation {
   display: inline-flex;
