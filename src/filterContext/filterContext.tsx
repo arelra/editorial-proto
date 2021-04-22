@@ -1,4 +1,4 @@
-import React, { useState, FC, useEffect, ReactElement } from "react";
+import React, { useState, FC } from "react";
 
 export enum FilterTypes {
 	EMPTY = 0,
@@ -15,10 +15,6 @@ export const FilterContext = React.createContext<any>({});
 
 const FilterContextWrapper: FC<Props> = ({ children }) => {
 	const [currentFilter, setCurrentFilter] = useState(FilterTypes.EMPTY);
-
-	useEffect(() => {
-		console.log(currentFilter);
-	}, [currentFilter]);
 
 	return (
 		<FilterContext.Provider value={{ currentFilter, setCurrentFilter }}>

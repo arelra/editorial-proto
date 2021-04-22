@@ -15,6 +15,10 @@ const FilterBank: FC = () => {
 	return (
 		<div style={styles.filterBank}>
 			<FilterButton
+				text="Reset"
+				onClick={() => setCurrentFilter(FilterTypes.EMPTY)}
+			/>
+			<FilterButton
 				text="Goals"
 				onClick={() => setCurrentFilter(FilterTypes.GOALS)}
 			/>
